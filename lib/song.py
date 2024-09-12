@@ -41,6 +41,5 @@ class Song:
         if artist in cls.artist_count:
             cls.artist_count[artist] += 1
         else:
-             cls.artist_count[artist] = 1
-
+            cls.artist_count[artist] = 1
 
